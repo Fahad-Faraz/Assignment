@@ -1,4 +1,3 @@
-
 import React from "react";
 
 const Card = ({ image, title, description, price, onAddToCart }) => {
@@ -20,7 +19,7 @@ const Card = ({ image, title, description, price, onAddToCart }) => {
           <span className="text-lg font-bold text-[#B3EC67]">${price}</span>
           <button
             onClick={onAddToCart}
-            className="bg-gradient-to-r from-[#b3ec67] to-[#8ccf47] hover:from-[#9dd852] hover:to-[#76b43b] text-black font-semibold px-4 py-2 rounded-xl text-sm transition-all duration-300"
+            className="bg-gradient-to-r from-[#B3EC67] to-[#76b43b] hover:from-[#9dd852] hover:to-[#76b43b] text-black font-semibold px-4 py-2 rounded-xl text-sm transition-all duration-300"
           >
             Add to Cart
           </button>
