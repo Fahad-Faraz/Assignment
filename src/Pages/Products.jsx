@@ -1,4 +1,4 @@
-// src/Pages/Products.jsx
+
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
@@ -42,7 +42,7 @@ function Products({ onAddToCart }) {
             key={product.id}
             className="bg-white rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 border border-emerald-100 hover:border-emerald-300 overflow-hidden"
           >
-            {/* ✅ FIXED IMAGE SECTION */}
+          
             <div className="w-full flex items-center justify-center bg-emerald-50">
               <img
                 src={product.thumbnail}

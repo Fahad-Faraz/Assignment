@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 function Banner() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
-  // Slider data (bright, modern visuals)
+  
   const slides = [
     {
       id: 1,
@@ -25,7 +25,7 @@ function Banner() {
     },
   ];
 
-  // Auto-slide every 5s
+  
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % slides.length);
@@ -48,7 +48,7 @@ function Banner() {
             className="w-full h-full object-cover"
           />
 
-          {/* Light overlay + gradient */}
+          
           <div className="absolute inset-0 bg-gradient-to-t from-emerald-100/70 via-white/50 to-white/20 backdrop-blur-[2px] flex flex-col items-center justify-center text-center px-6">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-emerald-700 drop-shadow-md mb-4 animate-fadeIn">
               {slide.heading}
@@ -63,7 +63,7 @@ function Banner() {
         </div>
       ))}
 
-      {/* Dots navigation */}
+      
       <div className="absolute bottom-6 left-0 right-0 flex justify-center space-x-3">
         {slides.map((_, index) => (
           <button

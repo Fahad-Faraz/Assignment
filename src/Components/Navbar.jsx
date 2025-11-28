@@ -15,7 +15,7 @@ export default function Navbar({ cartCount = 0 }) {
 
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10">
         <div className="flex items-center justify-between h-20">
-          {/* Left: Brand */}
+          
           <div className="flex items-center gap-3">
             <NavLink to="/" className="flex items-center gap-3">
               <div className="w-12 h-12 bg-gradient-to-r from-emerald-500 to-green-600 rounded-full flex items-center justify-center text-white text-xl font-bold shadow-md">
@@ -32,7 +32,7 @@ export default function Navbar({ cartCount = 0 }) {
             </NavLink>
           </div>
 
-          {/* Middle: Desktop Links */}
+          
           <nav className="hidden md:flex md:items-center md:space-x-8">
             <NavLink to="/" className={linkClass}>
               Home
@@ -45,7 +45,7 @@ export default function Navbar({ cartCount = 0 }) {
             </NavLink>
           </nav>
 
-          {/* Right: Actions */}
+          
           <div className="flex items-center gap-4 ">
             {/* 🛒 Cart */}
             <NavLink
@@ -73,7 +73,7 @@ export default function Navbar({ cartCount = 0 }) {
               )}
             </NavLink>
 
-            {/* Auth Buttons */}
+            
             <NavLink
               to="/signup"
               className="hidden sm:inline-block px-5 py-2.5 rounded-md bg-emerald-500 text-white font-semibold text-sm hover:bg-emerald-600 transition"
@@ -87,7 +87,7 @@ export default function Navbar({ cartCount = 0 }) {
               Log In
             </NavLink>
 
-            {/* Mobile Menu Toggle */}
+            
             <button
               onClick={() => setMobileOpen((v) => !v)}
               className="md:hidden inline-flex items-center justify-center p-2 rounded-md hover:bg-emerald-50"
@@ -121,7 +121,7 @@ export default function Navbar({ cartCount = 0 }) {
         </div>
       </div>
 
-      {/* Mobile Dropdown */}
+      
       {mobileOpen && (
         <div className="md:hidden bg-gradient-to-r from-white via-emerald-50 to-green-50 border-t border-gray-200 shadow-md">
           <div className="px-6 pt-4 pb-6 space-y-4">

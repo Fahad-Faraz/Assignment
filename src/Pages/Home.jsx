@@ -1,4 +1,4 @@
-// src/Pages/Home.jsx
+
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Banner from "../Components/Banner";
@@ -18,7 +18,7 @@ function Home({ onAddToCart }) {
     <div className="min-h-screen bg-gray-50 text-gray-900 pt-20">
 
 
-      {/* ✅ Banner */}
+      
       <Banner />
 
       {/* 🌑 Why Choose Us Section (Dark Elegant Theme) */}
@@ -43,7 +43,7 @@ function Home({ onAddToCart }) {
       From electronics to fashion, we bring you premium products with unbeatable deals — all in one place.
     </p>
 
-    {/* Highlighted Features */}
+    
     <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
       {[
         {
@@ -82,7 +82,7 @@ function Home({ onAddToCart }) {
   </div>
 </section>
 
-      {/* 🌿 Featured Products Section */}
+      
       <section className="py-16 px-6 bg-gradient-to-b from-white via-emerald-50 to-green-100">
         <h2 className="text-4xl sm:text-5xl font-extrabold text-center text-emerald-700 mb-10">
           Featured Products
@@ -94,7 +94,7 @@ function Home({ onAddToCart }) {
               key={product.id}
               className="bg-white rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 border border-emerald-100 hover:border-emerald-300 overflow-hidden"
             >
-              {/* ✅ FIXED IMAGE DISPLAY */}
+              
               <div className="w-full flex items-center justify-center bg-emerald-50">
                 <img
                   src={product.thumbnail}

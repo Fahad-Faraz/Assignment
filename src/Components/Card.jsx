@@ -1,4 +1,4 @@
-// src/Components/Card.jsx
+
 import React from "react";
 
 const Card = ({ image, title, description, price, onAddToCart }) => {

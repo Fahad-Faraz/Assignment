@@ -1,16 +1,16 @@
-// src/Pages/About.jsx
+
 import React from "react";
 
 export default function About() {
   return (
     <section className="min-h-screen bg-gradient-to-b from-white via-emerald-50 to-green-100 text-gray-800 py-20 px-6">
       <div className="max-w-4xl mx-auto text-center">
-        {/* 🌿 Heading */}
+    
         <h1 className="text-5xl font-extrabold text-emerald-700 mb-6">
           About <span className="text-[#B3EC67]">Us</span>
         </h1>
 
-        {/* ✨ Subtext */}
+        
         <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed mb-10">
           At <span className="font-semibold text-emerald-700">Your Shop Center</span>, 
           we’re passionate about making shopping effortless, enjoyable, 
@@ -18,7 +18,7 @@ export default function About() {
           products at unbeatable prices — delivered with care and style.
         </p>
 
-        {/* 💚 Highlights */}
+        
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
           {[
             {
@@ -50,7 +50,7 @@ export default function About() {
           ))}
         </div>
 
-        {/* 💫 Closing Statement */}
+        
         <div className="mt-16 max-w-2xl mx-auto">
           <p className="text-gray-700 text-lg italic">
             “We believe great shopping starts with trust, quality, and a smile.

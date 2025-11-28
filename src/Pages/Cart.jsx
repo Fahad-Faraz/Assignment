@@ -1,4 +1,4 @@
-// src/Pages/Cart.jsx
+
 import React from "react";
 
 function Cart({ items }) {
